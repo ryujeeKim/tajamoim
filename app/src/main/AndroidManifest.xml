@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.myapplicationrealrealrealarray">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcherpo"
+        android:label="타자회관2"
+        android:roundIcon="@color/yellow"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Taza"
+        tools:targetApi="31">
+        <activity
+            android:name=".PracticeActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".FinishActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity2"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity3"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity4"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity5"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity6"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".PracticeActivity7"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize"/>
+        <activity
+            android:name=".DiaryActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivityPoem"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivitySeong"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivitySong"
+            android:exported="true" />
+        <activity
+            android:name=".PreviewActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true">
+
+
+        </activity>
+    </application>
+
+</manifest>
